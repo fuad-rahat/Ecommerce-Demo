@@ -11,9 +11,9 @@ const products = [
     description:
       "A high-end smartphone with advanced features. This device offers cutting-edge technology, a powerful camera system, and long-lasting battery life.",
     images: [
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
+      "https://img.freepik.com/free-vector/dark-themed-mobile-phone-surrounded-by-apps_52683-23826.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming",
+      "https://img.freepik.com/premium-psd/smartphone-mockup-floating_772836-946.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming",
+      "https://img.freepik.com/free-vector/home-screen-concept-illustration_114360-4703.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming",
     ],
     rating: 4.5,
     reviews: 120,
@@ -32,9 +32,9 @@ const products = [
     price: 999.99,
     description: "A powerful laptop for work and entertainment.",
     images: [
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
+      "https://img.freepik.com/free-photo/laptop-with-white-screen-isolated-white-wall_231208-8594.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming",
+      "https://img.freepik.com/free-photo/laptop-wooden-table_53876-20635.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming",
+      "https://img.freepik.com/free-psd/macbook-mockup-floating_1332-60671.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming",
     ],
     rating: 4,
     reviews: 85,
@@ -50,7 +50,7 @@ const products = [
     name: "Headphones",
     price: 149.99,
     description: "Noise-cancelling headphones for immersive audio experience.",
-    images: ["/placeholder.svg?height=400&width=400", "/placeholder.svg?height=400&width=400"],
+    images: ["https://img.freepik.com/free-photo/recording-human-icon-stereo-wireless_1232-3551.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming", "https://img.freepik.com/free-vector/bright-headphones-music-wallpaper_98292-3988.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming"],
     rating: 4.8,
     reviews: 250,
     specs: [
@@ -64,7 +64,7 @@ const products = [
     name: "T-Shirt",
     price: 19.99,
     description: "A comfortable cotton t-shirt for everyday wear.",
-    images: ["/placeholder.svg?height=400&width=400"],
+    images: ["https://img.freepik.com/free-photo/black-t-shirt-with-word-kiri-1-it_1340-37795.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming"],
     rating: 3.9,
     reviews: 50,
     specs: [

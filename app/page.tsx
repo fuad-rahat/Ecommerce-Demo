@@ -9,29 +9,30 @@ export default function Home() {
   const featuredCategories = [
     {
       name: "Electronics",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://img.freepik.com/free-vector/electronics-store-template-design_23-2151143820.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming",
       description: "Cutting-edge gadgets and devices",
     },
-    { name: "Clothing", image: "/placeholder.svg?height=200&width=200", description: "Trendy and comfortable apparel" },
+    { name: "Clothing", image: "https://img.freepik.com/free-photo/lot-different-clothes-hanging-wardrobe_181624-16122.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming", description: "Trendy and comfortable apparel" },
     {
       name: "Home & Garden",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://img.freepik.com/free-photo/town-park-with-benches-fireplace_114579-13022.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming",
       description: "Beautify your living spaces",
     },
     {
       name: "Books",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://img.freepik.com/free-photo/books-beach_1048-4666.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming",
       description: "Expand your knowledge and imagination",
     },
   ]
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Banner />
+     <div className=" ">
+     <Banner />
+     </div>
 
-      <section className="bg-gray-50 py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center text-primary-800">Special Offers</h2>
+      <section className="bg-gray-50 ">
+        <div className="c">
           <OfferCarousel />
         </div>
       </section>
@@ -62,21 +63,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-primary-900 text-white py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Become a Seller on Shosta</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Start selling your products to millions of customers today and grow your business with our powerful
-            platform.
-          </p>
-          <Button asChild size="lg" variant="secondary" className="text-lg">
-            <Link href="/register-shop">
-              Get Started
-              <ArrowRight className="ml-2" size={20} />
-            </Link>
-          </Button>
-        </div>
-      </section>
+      
     </div>
   )
 }

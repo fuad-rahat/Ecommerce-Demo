@@ -21,7 +21,7 @@ export default function ProductGallery({ images }: { images: string[] }) {
         {images.map((image, index) => (
           <button
             key={index}
-            className={`w-20 h-20 relative rounded-md overflow-hidden ${
+            className={`w-40 h-40 relative rounded-md overflow-hidden ${
               image === mainImage ? "ring-2 ring-primary-600" : ""
             }`}
             onClick={() => setMainImage(image)}
