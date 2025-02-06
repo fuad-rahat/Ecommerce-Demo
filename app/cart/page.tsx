@@ -6,8 +6,8 @@ import { Trash2, Plus, Minus } from "lucide-react"
 
 // Dummy cart data (Replace with state management or API call in real app)
 const initialCartItems = [
-  { id: 1, name: "Smartphone", price: 599.99, quantity: 1, img: "https://via.placeholder.com/80" },
-  { id: 2, name: "T-Shirt", price: 19.99, quantity: 2, img: "https://via.placeholder.com/80" },
+  { id: 1, name: "Smartphone", price: 599.99, quantity: 1, img: "https://img.freepik.com/premium-psd/black-smartphone-mockup-your-design_34168-2402.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming" },
+  { id: 2, name: "T-Shirt", price: 19.99, quantity: 2, img: "https://img.freepik.com/free-photo/black-t-shirt-with-word-kiri-1-it_1340-37795.jpg?uid=R183282195&ga=GA1.1.1103696323.1736837892&semt=ais_incoming" },
 ]
 
 export default function CartPage() {
